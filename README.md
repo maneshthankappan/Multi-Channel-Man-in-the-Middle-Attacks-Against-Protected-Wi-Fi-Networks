@@ -22,3 +22,35 @@ This tool is tested with the following equipaments:
   * Hardware Version: A2
   * Firmware Version: 1.08
   * Configured with 50% TX power and channel 1
+  
+## Prerequisites and Installation Procedure
+### Install the following dependencies on Kali Linux:
+```
+$sudo apt update
+$sudo apt install libnl-3-dev libnl-genl-3-dev pkg-config libssl-dev net-tools git sysfsutils python-pycryptodome
+```
+### Install the following scapy package
+```
+$ pip install scapy==2.3.3
+```
+If the above command gives error, please try following procedure to install scapy 2.3.3
+```
+1. Go to [scapy link] (https://pypi.org/project/scapy/2.3.3/#files)
+2. Download "scapy-2.3.3.tgz (1.4 MB)" folder
+3. Unzip/extract the folder
+4. Open a terminal in scapy-2.3.3 folder
+5. Type sudo python2.7 setup.py install
+```
+### Install the following python package for MC-MitM attack setup
+```
+$pip install --user mitm_channel_based
+```
+If the above command gives error, please try following procedure to MC-MitM package
+```
+1. Go to [MC-MitM package link](https://pypi.org/project/mitm-channel-based/#description)
+2. Click on "Download files" link
+3. Download "mitm_channel_based-0.0.5.tar.gz (11.7 kB)" file
+4. Go to your download folder and unzip the above folder
+5. Open a terminal in "mitm_channel_based-0.0.5" folder
+6. Type sudo python2.7 setup.py install
+```
