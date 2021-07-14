@@ -34,7 +34,7 @@ $ pip install scapy==2.3.3
 ```
 If the above command gives error, please try following procedure to install scapy 2.3.3
 ```
-1. Go to [scapy link] (https://pypi.org/project/scapy/2.3.3/#files)
+1. Go to https://pypi.org/project/scapy/2.3.3/#files
 2. Download "scapy-2.3.3.tgz (1.4 MB)" folder
 3. Unzip/extract the folder
 4. Open a terminal in scapy-2.3.3 folder
@@ -46,7 +46,7 @@ $pip install --user mitm_channel_based
 ```
 If the above command gives error, please try following procedure to MC-MitM package
 ```
-1. Go to [MC-MitM package link](https://pypi.org/project/mitm-channel-based/#description)
+1. Go to https://pypi.org/project/mitm-channel-based/#description
 2. Click on "Download files" link
 3. Download "mitm_channel_based-0.0.5.tar.gz (11.7 kB)" file
 4. Go to your download folder and unzip the above folder
