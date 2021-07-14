@@ -44,7 +44,7 @@ If the above command gives error, please try following procedure to install scap
 ```
 $pip install --user mitm_channel_based
 ```
-If the above command gives error, please try following procedure to MC-MitM package
+If the above command gives error, please try following procedure to install MC-MitM package
 ```
 1. Go to https://pypi.org/project/mitm-channel-based/#description
 2. Click on "Download files" link
