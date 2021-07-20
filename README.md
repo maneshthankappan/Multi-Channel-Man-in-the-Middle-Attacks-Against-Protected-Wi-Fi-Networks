@@ -64,52 +64,34 @@ Perform the following before executing the attack
 6. Type suso rfkill unblock wifi
 ```
 ## Tool Usage
- The attack tool can be executed using follwoing command line arguments. Download the KRACK attack folder from 
+ The attack tool can be executed using follwoing command line arguments. Download attack folder from the link (Under construction). 
+
+ ```
+ $sudo ./krack_all_zero_tk.py wlan1 wlan0 eth0 "Manesh_WiFi" -t e4:02:9b:cd:3b:92
+ ```
+ ### Below are the details of wireless interfaces
  
- ```
- $ Below, I show an example of tool command line usage and then explain the arguments:
- 
- ```
- $sudo ./krackattack/krack_all_zero_tk.py wlan1 wlan0 usb0 "Familia Couto" -t 00:21:5d:ea:fe:be
- ```
  * `wlan1`: interface that listens and injects packets on the real channel
  * `wlan0`: interface that runs the Rogue AP
  * `eth0`: interface in which is provided internet access
  * `"Manesh_WiFi"`: SSID of the target network
- * `-t 00:21:5d:ea:fe:be`: MAC address of the attacked client
+ * `-t e4:02:9b:cd:3b:92`: MAC address of the attacked client
  * You can see many other options running `./krackattack/krack_all_zero_tk.py -h`!
  
- **warnings!**
- * Remember to disable the Wi-Fi before running the script!
- * After disabling the Wi-Fi, run the command: `$rfkill unblock wifi`!
- 
- **Files Generated**
- 
+
+ ### Files Generated
  After running the script for the first time, some new files will be generated:
- 
+ ```
  * `dnsmasq.conf`: configuration file for DHCP and DNS services
  * `dnsmasq_log`: output from dnsmasq
  * `hostapd_rogue.conf`: configuration file for the rogue ap clone from the real ap
  * `hostapd_rogue.log`: output from hostapd_rogue
  * `rogue_ap_capture.pcap`: file containing packets capture from the rogue ap interface
  ```
- * `wlan1`: interface that listens and injects packets on the real channel
- * `wlan0`: interface that runs the Rogue AP
- * `usb0`: interface in which is provided internet access
- * `"Familia Couto"`: SSID of the target network
- * `-t 00:21:5d:ea:fe:be`: MAC address of the attacked client
- * You can see many other options running `./krackattack/krack_all_zero_tk.py -h`!
+  ## Demonstration Video
+[![Analysis of Network behavior during channel switch announcements](https://github.com/maneshthankappan/Analysis-of-Genuine-Channel-Switch-Announcements-in-802.11-Networks/blob/main/Tumb.jpg)](https://youtu.be/sHM2dwAD1_I)
+
+
+  ## Troubleshooting
  
- **warnings!**
- * Remember to disable the Wi-Fi before running the script!
- * After disabling the Wi-Fi, run the command: `$rfkill unblock wifi`!
- 
- **Files Generated**
- 
- After running the script for the first time, some new files will be generated:
- 
- * `dnsmasq.conf`: configuration file for DHCP and DNS services
- * `dnsmasq_log`: output from dnsmasq
- * `hostapd_rogue.conf`: configuration file for the rogue ap clone from the real ap
- * `hostapd_rogue.log`: output from hostapd_rogue
- * `rogue_ap_capture.pcap`: file containing packets capture from the rogue ap interface
+  ### References
