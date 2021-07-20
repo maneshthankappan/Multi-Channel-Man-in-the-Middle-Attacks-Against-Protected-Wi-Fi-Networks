@@ -73,7 +73,7 @@ Perform the following before executing the attack
  
  * `wlan1`: interface that listens and injects packets on the real channel
  * `wlan0`: interface that runs the Rogue AP
- * `eth0`: interface in which is provided internet access
+ * `eth0`: interface providing internet access to the victim
  * `"Manesh_WiFi"`: SSID of the target network
  * `-t e4:02:9b:cd:3b:92`: MAC address of the attacked client
  * You can see many other options running `./krackattack/krack_all_zero_tk.py -h`!
