@@ -62,7 +62,7 @@ Perform the following before executing the attack
 3. Reboot the system
 4. Verify whether the flag (nohwcrypt = "1") has been set using the command "systool -vm ath9k_htc"
 5. Disable Wi-Fi or type sudo nmcli radio wifi
-6. Type suso rfkill unblock wifi
+6. Type sudo rfkill unblock wifi
 ```
 ## Tool Usage
  The attack tool can be executed using follwoing command line arguments. Download attack folder from the link (Under construction). 
@@ -97,5 +97,5 @@ Perform the following before executing the attack
   
   ## Troubleshooting
   Under construction  
- 
+ hhhhhh
   ### References
