@@ -11,7 +11,7 @@ This tool is tested with the following equipaments:
   * Two Wi-Fi Cards: Qualcomm Atheros Communications AR9271. Driver: ath9k_htc
   * Android smartphone connected via usb to provide 4g Internet
 
-* Client Aor Victim Machine:
+* Client or Victim Machine:
   * Dell Inspiron 15 30000 series
   * OS: Ubuntu 17.04
   * wpa_supplicant v2.4 (2.4-0ubuntu6 am64)
@@ -29,7 +29,7 @@ $sudo apt update
 $sudo apt install libnl-3-dev libnl-genl-3-dev pkg-config libssl-dev net-tools git sysfsutils python-pycryptodome
 ```
 ### 2. Install the following scapy package
-Now-a-days,kali linux comes with latest version of scapy (version 2.4.3 or above).This attack script will not work on this new scapy version. Therefore, uninstall the scapy first and reinstall scapy as described below. 
+Now-a-days,kali linux comes with latest version of scapy (version 2.4.3 or above).This attack script will not work on this new scapy version. Therefore, as pointed earlier,uninstall the scapy first and reinstall scapy as described below. 
 ```
 $ pip install scapy==2.3.3
 ```
