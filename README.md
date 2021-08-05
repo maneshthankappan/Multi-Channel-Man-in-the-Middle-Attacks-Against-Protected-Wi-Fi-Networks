@@ -29,6 +29,7 @@ $sudo apt update
 $sudo apt install libnl-3-dev libnl-genl-3-dev pkg-config libssl-dev net-tools git sysfsutils python-pycryptodome
 ```
 ### 2. Install the following scapy package
+Now-a-days,kali linux comes with latest version of scapy (version 2.4.3 or above).This attack script will not work on this new scapy version. Therefore, uninstall the scapy first and reinstall scapy as described below. 
 ```
 $ pip install scapy==2.3.3
 ```
