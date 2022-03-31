@@ -3,7 +3,9 @@ This activity describes how to perform MC-MitM (Improved Variant) attack using c
 ## Brief Background  
 Under Construction
 ## Attack Environment Setup
-This tool is tested with the following equipaments:
+<p align="center">
+  <img src="https://github.com/maneshthankappan/Multi-Channel-Man-in-the-Middle-Attacks-Against-Protected-Wi-Fi-Networks-By-Base-Variant-/blob/main/MC-MitM-IV-Attack.png">
+</p>
 
 * Attacker Machine
   * HP Elite 8300 SFF Quad Core
