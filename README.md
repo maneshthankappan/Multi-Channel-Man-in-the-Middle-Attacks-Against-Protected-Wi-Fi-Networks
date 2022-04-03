@@ -91,13 +91,11 @@ Perform the following before executing the attack
  * `hostapd_rogue.log`: output from hostapd_rogue
  * `rogue_ap_capture.pcap`: file containing packets capture from the rogue ap interface
  ```
-  ## Demonstration Video
-[![Analysis of Network behavior during channel switch announcements](https://github.com/maneshthankappan/Multi-Channel-Man-in-the-Middle-Attacks-Against-Protected-Wi-Fi-Networks/blob/main/thumb.jpg)](https://www.youtube.com/watch?v=axqbioyjom0)
-
-  ## Analysis of network behavior during MC-MitM attack
-  Under construction  
   
-  ## Troubleshooting
-  Under construction  
- hhhhhh
   ### References
+  * https://github.com/vanhoefm/krackattacks-scripts
+  * https://github.com/vanhoefm/fragattacks
+  * https://github.com/lucascouto/mitm-channel-based-package
+  * https://www.krackattacks.com/
+  * https://www.fragattacks.com/#tools
+  * https://papers.mathyvanhoef.com/ccs2018.pdf
