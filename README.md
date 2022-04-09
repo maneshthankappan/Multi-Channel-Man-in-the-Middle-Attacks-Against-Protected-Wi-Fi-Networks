@@ -1,7 +1,6 @@
 # Multi Channel Man-in-the-Middle Attacks Against Protected Wi-Fi Networks
 This activity describes how to perform MC-MitM (Improved Variant) attack using channel switch announcements.To execute this attack, two important the packeges such as python2.7 and scapy 2.3.3 are required.Note that this attack will not be successful with latest scapy versions 2.4.3. In this case it is advisble to remove higher versions of scapy and then downgrade to 2.3.3. In particular, this MC-MitM attack ultimately peforms a key reinstalltion attack on Linux machine. More specifically, the all-zero encryption key attack on vulnerable wpa_supplicants (2.4 or below) that comes with various Linux distributions. Please, use [this tool](https://github.com/lucascouto/krackattacks-scripts) to verify the client is vunarable to the attack or not. 
-## Brief Background  
-Under Construction
+
 ## Attack Environment Setup
 <p align="center">
   <img src="https://github.com/maneshthankappan/Multi-Channel-Man-in-the-Middle-Attacks-Against-Protected-Wi-Fi-Networks-By-Improved-Variant/blob/main/MC-MitM-Improved%20Variant-Attack%20Setup.jpeg">
