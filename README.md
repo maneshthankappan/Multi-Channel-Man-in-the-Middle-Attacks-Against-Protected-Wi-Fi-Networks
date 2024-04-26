@@ -90,7 +90,9 @@ Perform the following before executing the attack
  * `hostapd_rogue.log`: output from hostapd_rogue
  * `rogue_ap_capture.pcap`: file containing packets capture from the rogue ap interface
  ```
-  
+ ### Attack Demonstration
+  [![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ "Click to view the video on YouTube")
+
   ### References
   * https://github.com/vanhoefm/krackattacks-scripts
   * https://github.com/vanhoefm/fragattacks
