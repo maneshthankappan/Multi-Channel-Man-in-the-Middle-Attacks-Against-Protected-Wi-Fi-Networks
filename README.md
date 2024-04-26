@@ -91,7 +91,7 @@ Perform the following before executing the attack
  * `rogue_ap_capture.pcap`: file containing packets capture from the rogue ap interface
  ```
  ### Attack Demonstration
-  [![Watch the video][(https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg](https://github.com/maneshthankappan/Multi-Channel-Man-in-the-Middle-Attacks-Against-Protected-Wi-Fi-Networks-By-Improved-Variant/blob/main/thumb.jpg))](https://www.youtube.com/watch?v=axqbioyjom0&t=345s "Click to view the video on YouTube")
+  [![Watch the attack demo](https://github.com/maneshthankappan/Multi-Channel-Man-in-the-Middle-Attacks-Against-Protected-Wi-Fi-Networks-By-Improved-Variant/blob/main/thumb.jpg))](https://www.youtube.com/watch?v=axqbioyjom0&t=345s)
 
   ### References
   * https://github.com/vanhoefm/krackattacks-scripts
